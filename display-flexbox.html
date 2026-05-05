@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display e Flexbox</title>
+    <link rel="stylesheet" href="display-flexbox.css">
+</head>
+
+<body>
+
+    <h1>Display e Flexbox</h1>
+
+    <main>
+
+        <div class="bloco">
+            <h2>O que é a propriedade display?</h2>
+            <p>
+                A propriedade <strong>display</strong> define como um elemento HTML será exibido na página.
+            </p>
+        </div>
+
+        <div class="bloco">
+            <h2>display: block</h2>
+            <p><strong>O que faz:</strong> ocupa toda a largura disponível da linha.</p>
+
+            <div class="exemplo">
+                <pre><code>display: block;</code></pre>
+
+                <p><strong>Resultado:</strong></p>
+                <div class="box block">Elemento Block</div>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>display: inline</h2>
+            <p><strong>O que faz:</strong> ocupa apenas o espaço do conteúdo.</p>
+
+            <div class="exemplo">
+                <pre><code>display: inline;</code></pre>
+
+                <p><strong>Resultado:</strong></p>
+                <span class="box inline">Inline 1</span>
+                <span class="box inline">Inline 2</span>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>display: flex</h2>
+            <p>
+                O <strong>Flexbox</strong> é usado para organizar elementos em linha
+                e criar layouts modernos.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>
+display: flex;
+justify-content: center;
+gap: 20px;
+                </code></pre>
+
+                <p><strong>Resultado:</strong></p>
+
+                <div class="container-flex">
+                    <div class="caixa">1</div>
+                    <div class="caixa">2</div>
+                    <div class="caixa">3</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>justify-content</h2>
+            <p>
+                Controla o alinhamento horizontal dos elementos.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>justify-content: center;</code></pre>
+                <p>Centraliza os itens horizontalmente.</p>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>align-items</h2>
+            <p>
+                Controla o alinhamento vertical dos elementos.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>align-items: center;</code></pre>
+                <p>Centraliza os itens verticalmente.</p>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>gap</h2>
+            <p>
+                Cria espaço entre os elementos.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>gap: 20px;</code></pre>
+                <p>Espaçamento entre as caixas.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="cores-css.html">VOLTAR</a>
+            <a href="responsividade.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

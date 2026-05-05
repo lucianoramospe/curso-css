@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade e @media</title>
+    <link rel="stylesheet" href="responsividade.css">
+</head>
+
+<body>
+
+    <h1>Responsividade e @media</h1>
+
+    <main>
+
+        <div class="bloco">
+            <h2>O que é Responsividade?</h2>
+            <p>
+                Responsividade é a capacidade do site se adaptar a diferentes tamanhos de tela,
+                como computador, tablet e celular.
+            </p>
+        </div>
+
+        <div class="bloco">
+    <h2>O que é @media?</h2>
+
+    <p>
+        A regra <strong>@media</strong> é usada para aplicar estilos diferentes
+        de acordo com o tamanho da tela do dispositivo.
+    </p>
+
+    <p>
+        Isso é muito importante para que a página fique bonita em:
+    </p>
+
+    <ul>
+        <li>Computadores</li>
+        <li>Tablets</li>
+        <li>Celulares</li>
+    </ul>
+
+    <p>
+        Em outras palavras, o CSS muda automaticamente quando a tela diminui ou aumenta.
+    </p>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+
+        <pre><code>
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+        </code></pre>
+
+        <p><strong>Explicando o código:</strong></p>
+
+        <p>
+            <strong>@media</strong> → inicia a regra de responsividade
+        </p>
+
+        <p>
+            <strong>max-width: 768px</strong> → significa que esse estilo será aplicado
+            quando a largura da tela for de até 768 pixels.
+        </p>
+
+        <p>
+            <strong>font-size: 18px</strong> → altera o tamanho da fonte para 18 pixels.
+        </p>
+    </div>
+</div>
+        </div>
+
+        <div class="bloco">
+            <h2>Exemplo Prático</h2>
+            <p>
+                Redimensione a janela do navegador para ver a mudança.
+            </p>
+
+            <div class="caixa-responsiva">
+                Esta caixa muda no celular
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Resumo</h2>
+            <ul>
+                <li><strong>Desktop</strong> → telas grandes</li>
+                <li><strong>Tablet</strong> → telas médias</li>
+                <li><strong>Celular</strong> → telas pequenas</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="pseudoclasses.html">VOLTAR</a>
+            <a href="grid.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

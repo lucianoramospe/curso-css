@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="stylesheet" href="pseudoclasses.css">
+</head>
+
+<body>
+
+    <h1>Pseudo-classes (:hover e :focus)</h1>
+
+    <main>
+
+        <div class="bloco">
+            <h2>O que são Pseudo-classes?</h2>
+            <p>
+                As pseudo-classes permitem aplicar estilos em situações específicas,
+                como quando o mouse passa sobre um elemento ou quando um campo recebe foco.
+            </p>
+        </div>
+
+        <div class="bloco">
+            <h2>:hover</h2>
+            <p><strong>O que faz:</strong> aplica estilo quando o mouse passa por cima.</p>
+
+            <div class="exemplo">
+                <p><strong>Código:</strong></p>
+                <pre><code>
+.botao:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+                </code></pre>
+
+                <p><strong>Resultado:</strong></p>
+                <button class="botao">Passe o mouse aqui</button>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>:focus</h2>
+            <p><strong>O que faz:</strong> aplica estilo quando o campo é selecionado.</p>
+
+            <div class="exemplo">
+                <p><strong>Código:</strong></p>
+                <pre><code>
+input:focus {
+    border: 3px solid #2563eb;
+}
+                </code></pre>
+
+                <p><strong>Resultado:</strong></p>
+                <input type="text" class="campo" placeholder="Clique aqui">
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Resumo</h2>
+            <ul>
+                <li><strong>:hover</strong> → mouse sobre o elemento</li>
+                <li><strong>:focus</strong> → campo selecionado</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="cores-gradientes-fundo.html">VOLTAR</a>
+            <a href="responsividade.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+
+    <h1>CSS Grid</h1>
+
+    <main>
+
+        <div class="bloco">
+            <h2>O que é CSS Grid?</h2>
+            <p>
+                O <strong>CSS Grid</strong> é um sistema de layout usado para organizar
+                elementos em linhas e colunas.
+            </p>
+
+            <p>
+                Ele é muito utilizado para criar estruturas profissionais de páginas,
+                como cards, galerias e dashboards.
+            </p>
+        </div>
+
+        <div class="bloco">
+            <h2>Ativando o Grid</h2>
+
+            <p>
+                Para transformar um container em grade, usamos:
+            </p>
+
+            <div class="exemplo">
+                <pre><code>
+display: grid;
+                </code></pre>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Definindo Colunas</h2>
+
+            <p>
+                Usamos <strong>grid-template-columns</strong>
+                para definir a quantidade de colunas.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>
+grid-template-columns: 1fr 1fr 1fr;
+                </code></pre>
+
+                <p><strong>Resultado:</strong></p>
+
+                <div class="grid-container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                    <div class="item">6</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Espaçamento com gap</h2>
+
+            <p>
+                O <strong>gap</strong> cria espaço entre as caixas.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>
+gap: 20px;
+                </code></pre>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Explicando o 1fr</h2>
+
+            <p>
+                A unidade <strong>fr</strong> significa “fração do espaço disponível”.
+            </p>
+
+            <p>
+                Exemplo:
+            </p>
+
+            <pre><code>
+grid-template-columns: 1fr 1fr 1fr;
+            </code></pre>
+
+            <p>
+                Significa 3 colunas com o mesmo tamanho.
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="responsividade.html">VOLTAR</a>
+            <a href="projeto-final.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

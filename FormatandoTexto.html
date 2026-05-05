@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando o Texto com Estilos</title>
+    <link rel="stylesheet" href="formatacao-texto.css">
+</head>
+
+<body>
+
+    <h1>Formatando o Texto com Estilos</h1>
+
+    <main>
+
+        <div class="bloco">
+    <h2>font-family</h2>
+    <p><strong>O que faz:</strong> escolhe a família da fonte do texto.</p>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>font-family: Arial;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="fonte-arial">Exemplo usando a fonte Arial</p>
+    </div>
+</div>
+
+<div class="bloco">
+    <h2>font-style</h2>
+    <p><strong>O que faz:</strong> altera o estilo da fonte.</p>
+
+    <div class="exemplo">
+        <pre><code>font-style: italic;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="italico">Texto em itálico</p>
+    </div>
+</div>
+
+<div class="bloco">
+    <h2>font-weight</h2>
+    <p><strong>O que faz:</strong> define a espessura do texto.</p>
+
+    <div class="exemplo">
+        <pre><code>font-weight: bold;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="negrito">Texto em negrito</p>
+    </div>
+</div>
+
+<div class="bloco">
+    <h2>font-size</h2>
+    <p><strong>O que faz:</strong> altera o tamanho da fonte.</p>
+
+    <div class="exemplo">
+        <pre><code>font-size: 12px;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="tamanho">Texto com tamanho 12px</p>
+    </div>
+</div>
+
+<div class="bloco">
+    <h2>line-height</h2>
+    <p><strong>O que faz:</strong> controla a altura entre as linhas.</p>
+
+    <div class="exemplo">
+        <pre><code>line-height: 1.6;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="altura-linha">
+            Exemplo com múltiplas linhas.<br>
+            Observe o espaçamento entre elas.<br>
+            Isso melhora a leitura.
+        </p>
+    </div>
+</div>
+
+<div class="bloco">
+    <h2>color</h2>
+    <p><strong>O que faz:</strong> altera a cor do texto.</p>
+
+    <div class="exemplo">
+        <pre><code>color: red;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="cor-texto">Texto vermelho</p>
+    </div>
+</div>
+
+<div class="bloco">
+    <h2>background</h2>
+    <p><strong>O que faz:</strong> altera a cor de fundo.</p>
+
+    <div class="exemplo">
+        <pre><code>background: blue;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="fundo">Texto com fundo azul</p>
+    </div>
+</div>
+
+    <div class="bloco">
+    <h2>text-align</h2>
+
+    <p><strong>O que faz:</strong> define o alinhamento do texto dentro do elemento.</p>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-align: left;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="esquerda">
+            Este texto está alinhado à esquerda.
+        </p>
+    </div>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-align: center;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="centro">
+            Este texto está centralizado.
+        </p>
+    </div>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-align: right;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="direita">
+            Este texto está alinhado à direita.
+        </p>
+    </div>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-align: justify;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="justificado">
+            Este texto está justificado, ocupando todo o espaço disponível da linha, 
+            alinhando as margens esquerda e direita.
+        </p>
+    </div>
+</div>
+
+       <div class="bloco">
+    <h2>text-transform</h2>
+
+    <p>
+        A propriedade <strong>text-transform</strong> altera a forma como o texto é exibido.
+    </p>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-transform: capitalize;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="capitalize">
+            capitalize → cada palavra começa com letra maiúscula
+        </p>
+    </div>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-transform: uppercase;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="uppercase">
+            uppercase → todo o texto fica em letras maiúsculas
+        </p>
+    </div>
+
+    <div class="exemplo">
+        <p><strong>Código:</strong></p>
+        <pre><code>text-transform: lowercase;</code></pre>
+
+        <p><strong>Resultado:</strong></p>
+        <p class="lowercase">
+            LOWERCASE → todo o texto fica em letras minúsculas
+        </p>
+    </div>
+</div>
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="Seletores CSS.html">VOLTAR</a>
+            <a href="box-model.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

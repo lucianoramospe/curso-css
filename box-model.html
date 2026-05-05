@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model no CSS</title>
+    <link rel="stylesheet" href="box-model.css">
+</head>
+
+<body>
+
+     <h1>Modelo de Caixa (Margem, Preenchimento e Borda)</h1>
+
+    <main>
+
+        <div class="bloco">
+            <h2>O que é Modelo de Caixa (Box Model)?</h2>
+            <p>
+                Todo elemento HTML é representado como uma caixa.
+                Essa caixa é composta por:
+            </p>
+
+            <ul>
+                <li><strong>Content</strong> → conteúdo interno</li>
+                <li><strong>Padding</strong> → espaço interno</li>
+                <li><strong>Border</strong> → borda</li>
+                <li><strong>Margin</strong> → espaço externo</li>
+            </ul>
+        </div>
+
+        <div class="bloco">
+            <h2>Exemplo Visual</h2>
+
+            <div class="exemplo">
+                <p><strong>Código:</strong></p>
+                <pre><code>
+div {
+    margin: 20px;
+    padding: 30px;
+    border: 3px solid blue;
+}
+                </code></pre>
+
+                <p><strong>Resultado:</strong></p>
+
+                <div class="caixa-exemplo">
+                    Conteúdo da caixa
+                </div>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Margin (Margem)</h2>
+            <p>
+                A propriedade <strong>margin</strong> define o espaço externo do elemento.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>margin: 20px;</code></pre>
+                <p>Cria espaço ao redor da caixa.</p>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Padding (Preenchimento)</h2>
+            <p>
+                A propriedade <strong>padding</strong> define o espaço interno.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>padding: 30px;</code></pre>
+                <p>Cria espaço entre o conteúdo e a borda.</p>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>Border (Bordas)</h2>
+            <p>
+                A propriedade <strong>border</strong> define a borda do elemento.
+            </p>
+
+            <div class="exemplo">
+                <pre><code>border: 3px solid blue;</code></pre>
+                <p>Cria uma borda azul ao redor da caixa.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="FormatandoTexto.html">VOLTAR</a>
+            <a href="cores-css.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

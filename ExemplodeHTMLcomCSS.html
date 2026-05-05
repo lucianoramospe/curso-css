@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com CSS</title>
+
+    <style>
+
+        section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+        body {
+    background-color: #f5f7fa;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c3e50;
+    line-height: 1.8;
+    padding-bottom: 80px; /* espaço para o menu fixo */
+}
+        
+        h1 {
+            text-align: center;
+            font-size: 64px;
+            margin-top: 20px;
+            color: #1e3a8a;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: #dbeafe;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 38px;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 30px auto;
+            width: 75%;
+            color: #1e40af;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        pre {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: left;
+            overflow-x: auto;
+            font-size: 22px;
+            margin: 30px auto;
+            width: fit-content;
+            border-left: 6px solid #2563eb;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        code {
+            color: #c026d3;
+            font-weight: bold;
+        }
+
+        /* Menu fixo profissional */
+        .menu-fixo {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #1e293b;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 18px 0;
+            box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.25);
+            z-index: 1000;
+        }
+
+        .menu-fixo a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 14px 28px;
+            background-color: #2563eb;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .menu-fixo a:hover {
+            background-color: #1d4ed8;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 42px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            pre {
+                font-size: 18px;
+            }
+
+            .menu-fixo a {
+                font-size: 16px;
+                padding: 10px 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bem-Vindo ao CSS</h1>
+    <section>
+        <h2>Exemplo de HTML com CSS Inline</h2>
+        <pre><code>&lt;h1 style="color: rgb(0, 0, 0);"&gt;CSS Inline&lt;/h1&gt;</code></pre>
+    </section>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="Introdução a CSS.html">HOME</a>
+            <a href="CSSInterno.html">PRÓXIMO</a>
+        </div>
+    </footer>
+</body>
+
+</html>

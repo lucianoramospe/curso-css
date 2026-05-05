@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao CSS</title>
+
+    <style>
+        body {
+            background-color: #f5f7fa;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #2c3e50;
+            line-height: 1.8;
+            padding-bottom: 120px;
+        }
+
+        h1 {
+            color: #1e3a8a;
+            text-align: center;
+            font-size: 64px;
+            font-weight: bold;
+            margin: 40px auto;
+            width: 85%;
+            padding: 20px;
+            background-color: #dbeafe;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        p {
+            color: #2c3e50;
+            font-size: 32px;
+            text-align: justify;
+            margin-bottom: 25px;
+        }
+        ul {
+            font-size: 30px;
+            line-height: 2;
+            background-color: white;
+            padding: 30px 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        li {
+            margin-bottom: 15px;
+        }
+
+        /* Menu fixo profissional */
+        .menu-fixo {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #1e293b;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 18px 0;
+            box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.25);
+            z-index: 1000;
+        }
+
+        .menu-fixo a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 14px 28px;
+            background-color: #2563eb;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .menu-fixo a:hover {
+            background-color: #1d4ed8;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 42px;
+            }
+            p {
+                font-size: 22px;
+            }
+            ul {
+                font-size: 22px;
+            }
+            .menu-fixo a {
+                font-size: 16px;
+                padding: 10px 16px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Introdução ao CSS</h1>
+
+    <main>
+        <p>
+            O CSS é usado para estilizar páginas Web, permitindo alterar cores, fontes,
+            tamanho do texto, fundo, alinhamento e layout.
+        </p>
+
+        <p>Existem 3 formas de usar o CSS:</p>
+
+        <ul>
+            <li>CSS Inline (dentro da tag);</li>
+            <li>CSS Interno (dentro do HTML);</li>
+            <li>CSS Externo.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="menu-fixo">
+            <a href="ExemplodeHTMLcomCSS.html">PRÓXIMO</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
